@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Fonts -->
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="style.css">
+    <title>Cafena</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#">
+                <img src="images/logo.png" alt="Logo Cafena">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Cardápio</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass" title="Buscar por nossos produtos"></i>
+                <i class="fa-solid fa-cart-shopping" title="Carrinho"></i>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <div class="home-container" id="home">
+            <section>
+                <div class="content">
+                    <h1>Cafena</h1>
+                    <p> Seja bem-vindo(a) ao Cafena, o melhor lugar para tomar um café e relaxar.
+                        Aqui, cada xícara é preparada com grãos selecionados e muito carinho, garantindo uma experiência
+                        única para quem aprecia o verdadeiro sabor do café.
+                        Venha desfrutar de um ambiente aconchegante, perfeito para uma pausa tranquila ou um encontro
+                        especial, enquanto saboreia nossas deliciosas opções de doces e salgados artesanais.</p>
+                    <a href="#menu" class="btn">Veja o Cardápio</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="about" id="about">
+            <h2 class="title">Sobre <span>Nós</span></h2>
+            <div class="row">
+                <div class="container-image">
+                    <img src="images/cafe.jpg" alt="Sobre nós">
+                </div>
+
+                <div class="content">
+                    <h3>O Que Faz Nosso Café Especial?</h3>
+                    <p>No Cafena, acreditamos que o segredo de um café inesquecível está em cada detalhe.
+                        Utilizamos grãos 100% selecionados, cultivados de forma sustentável e torrados na medida certa
+                        para preservar o máximo de aroma e sabor.
+                        Cada xícara é preparada com cuidado artesanal, resultando em uma bebida rica, encorpada e cheia
+                        de nuances que despertam os sentidos.
+                        Venha provar e descubra o sabor que torna nosso café realmente especial!</p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <h2 class="title">Nosso <span>Menu</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-1.png" alt="item 1">
+                    <h3><i>Cappuccino Clássico</i></h3>
+                    <p>Uma bebida cremosa, com uma espuma suave e arte latte delicada.</p>
+                    <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/menu-2.png" alt="item 2">
+                    <h3><i>Coração de Cappuccino</i></h3>
+                    <p>Um cappuccino clássico com espuma aveludada e um toque de amor em forma de coração, perfeito para aquecer o seu dia.</p>
+                    <div class="price">R$ 11,99 <span>R$ 15,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/menu-3.png" alt="item 3">
+                    <h3><i>Latte Especial</i></h3>
+                    <p>Café com leite harmonioso, com uma camada generosa de espuma e uma arte latte em forma de folha.</p>
+                    <div class="price">R$ 13,99 <span>R$ 18,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/menu-4.png" alt="item 4">
+                    <h3><i>Mocaccino com toque de cacau</i></h3>
+                    <p>Café cremoso com espuma e uma pitada de cacau por cima, ideal para quem gosta de sabores mais doces e intensos.</p>
+                    <div class="price">R$ 7,99 <span>R$ 12,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/menu-5.png" alt="item 5">
+                    <h3><i>Flor de Latte</i></h3>
+                    <p>Um latte delicado com uma espuma cremosa, coroado por uma arte floral que transforma cada gole em uma experiência visual e saborosa.</p>
+                    <div class="price">R$ 9,99 <span>R$ 14,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+                <div class="box">
+                    <img src="images/menu-6.png" alt="item 6">
+                    <h3><i>Azul Sereno</i></h3>
+                    <p>Um latte suave e encorpado, servido em nossa xícara azul especial, para momentos de calma e contemplação.</p>
+                    <div class="price">R$ 12,99 <span>R$ 18,99</span></div>
+                    <a href="#" class="btn">Adicione ao Carrinho</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="review" id="review">
+            <h2 class="title">Nossos <span>Clientes</span></h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/quote-img.png" alt="comentario">
+                    <p>Experimentei o nosso Latte Especial e fiquei impressionado! A combinação perfeita de café encorpado com leite cremoso cria uma experiência única. 
+                    A arte latte no topo é um toque delicado que mostra o cuidado em cada xícara. Sem dúvida, um café que encanta o paladar e aquece o coração. 
+                    Recomendo a todos que buscam uma pausa saborosa e aconchegante!</p>
+                    <img src="images/pic-1.png" alt="foto-cliente1" class="user">
+                    <h3 class="review-name">Lucas Gomes</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote-img.png" alt="comentario">
+                    <p>Se você ainda não provou o Mocaccino com toque de cacau do Cafena, está perdendo uma experiência deliciosa! O equilíbrio entre o doce do chocolate e a força do café é impecável. 
+                    A pitada de cacau por cima dá o toque final que torna essa bebida irresistível. Amei e já virei fã!</p>
+                    <img src="images/pic-2.png" alt="foto-cliente2" class="user">
+                    <h3 class="review-name">Larissa Nogueira</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote-img.png" alt="comentario">
+                    <p>O Cappuccino Clássico do Cafena é simplesmente incrível! A espuma aveludada combinada com o sabor intenso do café cria uma explosão de sabores a cada gole. 
+                    Perfeito para começar o dia ou relaxar à tarde. Um verdadeiro clássico que nunca decepciona!</p>
+                    <img src="images/pic-3.png" alt="foto-cliente3" class="user">
+                    <h3 class="review-name">Lucas Gomes</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="address" id="address">
+            <h2 class="title">Nosso <span>Endereço</span></h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.024289559715!2d-42.571010340158715!3d-19.4975907635912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa555c1c0cb6a19%3A0x4f7e9d7b327ed7c!2sMr.%20Black%20Caf%C3%A9%20-%20Cafeteria%20Ipatinga!5e0!3m2!1spt-PT!2sbr!4v1743022003695!5m2!1spt-PT!2sbr" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="logo">
+        </div>
+        <div class="share">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i> 
+        </div>
+        <div class="copy">
+            <i>Feito com dedicação por <a href="https://github.com/codebyangell" class="link-footer">Angell</a></i>
+            <p>&copy; 2025 Cafena. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
