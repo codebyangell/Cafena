@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/logo.png" alt="Logo Alura+" width="150"/>
+</p>
+
 # ☕ Cafena – Site da Cafeteria
 
 ## 🏡 Visão Geral
